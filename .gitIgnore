@@ -1,0 +1,35 @@
+# Airflow logs
+logs/
+*/logs/
+
+# Airflow configuration
+airflow.cfg
+unittests.cfg
+webserver_config.py
+
+# SQLite database
+airflow.db
+
+# DAGS folder - if you have local test DAGs that should not be in the repository
+# Uncomment the line below if you want to ignore the entire DAGs directory
+# dags/
+
+# Environment files
+.env
+.env.*
+
+# Python virtual environments
+venv/
+env/
+
+# Compiled files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints
+
+# Local files and directories
+instance/
